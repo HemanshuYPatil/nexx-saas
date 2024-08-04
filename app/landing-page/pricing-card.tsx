@@ -21,7 +21,7 @@ const PricingCard = ({ title, price, description, features, isPopular, url }: Pr
       }
       <div>
         <div className="inline-flex items-end">
-          <h1 className="font-extrabold text-3xl">${price}</h1>
+          <h1 className="font-extrabold text-3xl">₹{price}</h1>
         </div>
         <h2 className="font-bold text-xl my-2">
           {title}

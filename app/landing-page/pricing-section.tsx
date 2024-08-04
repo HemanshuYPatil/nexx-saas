@@ -2,7 +2,7 @@ import PricingCard from "./pricing-card";
 
 export type PricingPlan = {
   title: string;
-  price: number;
+  price: string | number;
   description: string;
   isPopular: boolean;
   features: string[];
@@ -25,7 +25,7 @@ export const pricingPlans: PricingPlan[] = [
   },
   {
     title: "Monthly",
-    price: 6.99,
+    price: 502,
     description: "For growing teams",
     isPopular: true,
     url: "/payments/subscribe?plan=monthly",
@@ -38,7 +38,7 @@ export const pricingPlans: PricingPlan[] = [
   },
   {
     title: "Yearly",
-    price: 39.99,
+    price: `3,266`,
     description: "Upgrade to save more!",
     isPopular: false,
     url: "/payments/subscribe?plan=yearly",
