@@ -1,3 +1,3 @@
-export const monthlyPlanId: string = "price_1PdIAcC0XQCoR9vajLTeZdDF";
-export const yearlyPlanId: string = "price_1PdIAcC0XQCoR9vaACNQWIew";
+export const monthlyPlanId: string = "price_1Pk5i9SF80PaWJPI04SFRC1y";
+export const yearlyPlanId: string = "price_1Pk5ipSF80PaWJPIR399nLPT";
 export const maxFreeProjects: number = 3;
